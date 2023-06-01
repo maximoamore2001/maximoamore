@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+body {
+    font-family: 'montserrat', sans-serif;
+}
+
+.wrapper {
+    /* primer bloque */
+    background-size: cover;
+    color: black;
+    height: 60em;
+    background-color: #ABEBC6;
+}
+
+.logo span{
+    color: black;
+}
+.logo h1{
+    color: white;
+    max-height: 20px;
+
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+/* Nombre y APELLIDO tamaño y sombra */
+.main h1 {
+    margin-top: 5%;
+    font-size: 3em;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+}
+.main .bi-mouse {
+    font-size: 1em;
+}
+/* primer parrafo */
+.main p {
+    margin: 2% 10%;
+    font-size: 1.2em;
+    color: #ABEBC6;
+    font-weight: 600;
+    background-color: rgb(48, 47, 47);
+    border-radius: 20px;
+    padding: 2%;
+    border: inset 3px #ABEBC6;
+    transition: ease-in .3s;
+    box-shadow: 10px 7px rgba(43, 42, 42, 0.342);
+}
+
+/* primer parrafo hover */
+.main p:hover {
+    transform: scale(1.02);
+    font-size: 1.2em;
+    background-color: #ABEBC6;
+    border-radius: 20px;
+    border: inset 3px black;
+    transition: ease-in .3s;
+    color: black;
+    padding: 2%;
+}
+
+/* foto en blanco y negro */
+.main img { 
+    margin-top: 10%;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 88%;
+    height: 88%;
+    transition: ease-in .5s;
+    box-shadow: 12px 10px rgba(43, 42, 42, 0.342);
+}
+
+/* foto en blanco y negro HOVER */
+.main img:hover {
+    border: 2px solid black;
+    width: 88%;
+    height: 88%;
+    border-radius: 80px;
+    transition: ease-out .5s;
+    transform: scale(1.05);
+}
+
+/* colores de el nombre MAXIMO */
+
+
+
+/* BOTON GENERICO */
+.download-cv {
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: rgb(48, 47, 47);
+    color: #ABEBC6;
+    border-radius: 20px;
+    margin-top: 6px;
+    cursor: pointer;
+    border: solid 2px white;
+    transition: ease-in .2s;
+    box-shadow: 12px 7px rgba(43, 42, 42, 0.342);
+}
+
+
+.download-cv:hover {
+    background-color: #ABEBC6;
+    color: black;
+    box-shadow: none;
+    transition: ease-in .2s;
+    transform: scale(1.1);
+    border: solid 2px rgb(48, 47, 47);
+}
+
+.about .download-cv {
+    margin: 2% 1%;
+    border: solid 3px #ABEBC6;
+}
+
+.about .download-cv:hover {
+    background-color: #ABEBC6;
+    color: black;
+    border: solid 3px white;
+    margin: 2% 1%;
+}
+
+.about {
+    background-color: white;
+    padding: 10% 0%;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border: solid 2px #ABEBC6;
+    border-radius: 20px;
+    transition: ease-in .5s;
+    box-shadow: 12px 10px rgba(43, 42, 42, 0.342);
+}
+.about img:hover {
+    height: 100%;
+    width: 100%;
+    border: solid 2px #ABEBC6;
+    border-radius: 20px;
+    transition: ease-in-out .3s;
+    transform: scale(1.01);
+}
+
+.about-info {
+    padding: 12% 10%;
+    font-size: 20px;
+}
+
+.about-info h2 {
+    margin: 0% 5%;
+    font-size: 2em;
+    color: #ABEBC6;
+    text-shadow: 5px 5px 1px gray;
+}
+
+.about p {
+    margin: 2% 5%;
+    font-weight: 400;
+    background-color: rgb(48, 47, 47);
+    border-radius: 20px;
+    padding: 1% 0%;
+    border: solid 4px #ABEBC6;
+    color: #ABEBC6;
+    padding-left: 2%;
+    transition: ease-in .2s;
+    box-shadow: 12px 7px rgba(43, 42, 42, 0.342);
+}
+
+.about p:hover {
+    margin: 2% 5%;
+    font-weight: 400;
+    background-color: #ABEBC6;
+    border-radius: 30px;
+    border: inset 4px black;
+    color: rgb(48, 47, 47);
+    transition: ease-in .2s;
+    transform: scale(1.02);
+}
+
+/* skills 2 */
+.skills {
+    background-color: #ABEBC6;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    height: 100%;
+    width: 100%;
+}
+
+.skills .smartphone {
+    box-shadow: 12px 7px rgba(43, 42, 42, 0.342);
+    font-size: 2em;
+    color: white;
+    background-color: #0A7B9A;
+    border-radius: 10px;
+    margin: 10% 20%;
+    padding: 7px 0px;
+}
+
+.skills .pc {
+    box-shadow: 12px 7px rgba(43, 42, 42, 0.342);
+    font-size: 2em;
+    color: white;
+    background-color: #0A7B9A;
+    border-radius: 10px;
+    margin: 1% 40%;
+    padding-bottom: 3px;
+}
+
+.skills img {
+    background-color: white;
+    border-radius: 10px;
+    height: 50%;
+    border: solid 0px #0A7B9A;
+    padding: 10px;
+    color: white;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10%;
+    transition: ease-in .8s;
+}
+
+.skills img:hover {
+    background-color: white;
+    border-radius: 30px;
+    height: 50%;
+    border: solid 0px white;
+    padding: 10px;
+    color: white;
+    max-width: 200px;
+    max-height: 200px;
+    transition: ease-in .3s;
+    transform: scale(1.24);
+}
+
+
+.skills .bloque-programa {}
+
+.skills p {
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 0.2% 0%;
+    color: white;
+    background-color: #0A7B9A;
+    border-radius: 20px;
+    border: solid 2px #ABEBC6;
+    margin: 0px 20%;
+    box-shadow: 12px 7px rgba(43, 42, 42, 0.342);
+}
+
+#mercado-pago p {
+    font-size: 87%;
+    padding: 5px 0px;
+    background-color: #2471A3;
+}
+
+/* colores de los parrafos de las skills */
+.skills i {
+    color: #ABEBC6;
+    ;
+}
+#html1 p{
+    background-color: #e44d26;
+}
+
+
+#css2   p{
+    background-color: #0d73b7;    
+}  
+
+#js3   p{
+    background-color: #eddc50;
+}
+
+#git4   p{
+    background-color: #ef4e30;
+}
+
+#php5   p{
+    background-color: #fefefe;
+    color: black;
+}
+
+#laravel6   p{
+    background-color: #ff756b;
+}
+
+#apache7   p{
+    background-color: #cc2032;
+}
+
+#mysql8   p{
+    background-color: #002b41;
+}
+
+#bs9   p{
+    background-color: #462d6c;
+}
+
+#reactjs10   p{
+    background-color: #61dbfb;
+}
+
+#jquery11 p {
+    background-color: #1e77af;
+}
